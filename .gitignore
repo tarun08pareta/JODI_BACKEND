@@ -1,0 +1,54 @@
+# ─── Dependencies ─────────────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ─── Environment Files (IMPORTANT) ───────────
+.env
+.env.*
+!.env.example
+
+# ─── Logs ───────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Build Output ───────────────────────────
+dist/
+build/
+out/
+
+# ─── OS Files ───────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── IDE / Editor ───────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Coverage / Testing ─────────────────────
+coverage/
+
+# ─── Temporary Files ────────────────────────
+tmp/
+temp/
+
+# ─── Cache ─────────────────────────────────
+.cache/
+
+# ─── Uploads (if any local storage) ────────
+uploads/
+public/uploads/
+
+# ─── Secrets / Keys ────────────────────────
+*.pem
+*.key
+*.crt
+
+# ─── Docker (optional) ─────────────────────
+docker-compose.override.yml
