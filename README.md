@@ -1,4 +1,4 @@
-# 💖 Stellar Spark Match - Backend API
+# 💖  - Backend API
 
 FastAPI-based backend for the **Stellar Spark Match** dating application.
 Handles authentication, profiles, messaging, media, and real-time communication.
